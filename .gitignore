@@ -1,0 +1,21 @@
+CLAUDE.md
+CLAUDE.local.md
+.env
+node_modules/
+.next/
+prisma/dev.db
+prisma/dev.db-journal
+
+# OS
+.DS_Store
+
+# Logs & runtime artifacts
+logs.txt
+.playwright-mcp/
+
+# Generated files
+src/generated/prisma/
+tsconfig.tsbuildinfo
+
+# Local Claude settings
+.claude/settings.local.json
