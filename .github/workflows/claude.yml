@@ -34,6 +34,7 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          model: claude-sonnet-4-6
           custom_instructions: |
             The project is already set up with all dependencies installed. The dev server is running at localhost:3000. Logs are written to logs.txt. If needed, query the DB with the sqlite3 CLI. Use mcp__playwright tools to interact with the browser.
           mcp_config: |
